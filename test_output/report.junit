@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='TAUUITests.xctest' tests='4' failures='1'>
+  <testsuite name='TAUUITests.BDDTest' tests='1' failures='1'>
+    <testcase classname='TAUUITests.BDDTest' name='testThankYouMessageInBDStyle'>
+      <failure message='Failed to synthesize event: Failed to scroll to visible (by AX action) Button, identifier: &apos;enrollButton&apos;, label: &apos;Enroll&apos;, error: Error kAXErrorCannotComplete performing AXAction 2003 on element AX element pid: 42270, elementOrHash.elementID: 140406132087552.11. (Underlying Error: Error kAXErrorCannotComplete performing AXAction 2003 on element AX element pid: 42270, elementOrHash.elementID: 140406132087552.11)'>
+        /Users/zakievvv/Documents/GitHub/XCUITest-TAU/TAUUITests/Steps/TAUSteps.swift:22
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name='TAUUITests.TAUEyesTest' tests='1' failures='0'>
+    <testcase classname='TAUUITests.TAUEyesTest' name='testTAUWithEyesXCUI' time='17.740'/>
+  </testsuite>
+  <testsuite name='TAUUITests.TAUUITests' tests='2' failures='0'>
+    <testcase classname='TAUUITests.TAUUITests' name='testExample' time='3.306'/>
+    <testcase classname='TAUUITests.TAUUITests' name='testThankYouMessage' time='3.480'/>
+  </testsuite>
+</testsuites>

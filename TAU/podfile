@@ -1,0 +1,6 @@
+project '/Users/zakievvv/Documents/GitHub/XCUITest-TAU/TAU.xcworkspace'
+target ‘TAU’ do
+	target ‘TAUUITests' do
+		pod 'EyesXCUI'
+	end
+end
